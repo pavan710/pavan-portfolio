@@ -55,7 +55,7 @@ function Banner() {
             <Row className='align-items-center'>
 
                 <Col xs={12} md={6} xl={7}>
-                <span className='tagline'>Hello EveryOne</span>
+                <span className='tagline'>Hello,Working on this project....</span>
                 <h1>{`I AM PAVAN KALYAN`} </h1>
                 <h1><span className='wrap'>{text}</span></h1>
                 <p>A CSE student skilled in Java, JavaScript, React, and Node. Built projects like a blood bank system and chat app(look projects section for more info), solved 600+ DSA problems, and holds certifications from Pearson, Salesforce, and Cisco.</p>

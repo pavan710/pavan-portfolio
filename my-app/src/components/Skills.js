@@ -8,7 +8,7 @@ import javascript from '../assets/img/javascript.svg';
 import reactjs from '../assets/img/reactjs.svg';
 import node from '../assets/img/nodejs.svg';
 import java from '../assets/img/java.svg';
-import colorSharp from '../assets/img/color-sharp.png';
+
 
 function Skills() {
 
@@ -35,7 +35,7 @@ function Skills() {
     
 
   return (
-    <section className='skills' id='skills'>
+    <section className='skill' id='skills'>
         <Container>
             <Row>
                 <Col>
@@ -43,7 +43,7 @@ function Skills() {
                     <h2>
                         Skills
                     </h2>
-                    <p>My Proficiency in skills</p>
+                    <p>Check Out My Tech Stack</p>
                     <Carousel responsive={responsive} infinite={true} className='skill-slider'>
                          <div className='item'>
                             <img src={java} alt='Image'/>
@@ -79,7 +79,7 @@ function Skills() {
                 </Col>
             </Row>
         </Container>
-        <img src={colorSharp}/>
+       
 
     </section>
   )

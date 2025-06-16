@@ -1,20 +1,30 @@
 import { Col } from "react-bootstrap";
-
+import Card from 'react-bootstrap/Card';
 import React from 'react'
 
-function ProjectCard({title, description, imgUrl }) {
+function ProjectCard({title, description,techstack,github }) {
   return (
-      <Col size={12} sm={6} md={4}>
-      <div className="proj-imgbx">
-        <img src={imgUrl} />
-        <div className="proj-txtx">
-          <h4>{title}</h4>
-          <span>{description}</span>
-        </div>
-      </div>
-    </Col>
+      <Card style={{ width: '28rem' }} className="card-overview text-white"> 
+      <Card.Body className="card-body">
+        <Card.Title>{title}</Card.Title>
+      
+      <p className=""> {description}</p>
+
+        <Card.Text>
+   {techstack}
+        </Card.Text>
+
+        <Card.Link href={github}>GitHub Link</Card.Link>
+        <Card.Link href="#">Live Link</Card.Link>
+      </Card.Body>
+    </Card>
   )
 }
+
+
+
+
+
 
 export default ProjectCard;
 

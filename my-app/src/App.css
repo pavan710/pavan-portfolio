@@ -358,7 +358,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .card-body{
   padding: 15px;
   font-size: large;
+  
 }
+
+
 
 
 /************ Projects Css ************/
@@ -486,6 +489,33 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   right: 0;
   z-index: -4;
 }
+
+.swap-section{
+  gap: 2px;
+}
+
+.experience{
+  font-size: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /************ Projects Css ************/
 .contact {

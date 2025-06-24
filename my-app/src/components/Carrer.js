@@ -5,7 +5,7 @@ import Resume from './Resume';
 
 import {Button, Container,Row,Col} from 'react-bootstrap'
 function Carrer() {
-  const [cursection,setsection]=useState('');
+  const [cursection,setsection]=useState('education');
 
   const updateSection=(value)=>{
     setsection(value);

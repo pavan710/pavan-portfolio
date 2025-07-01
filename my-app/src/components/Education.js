@@ -6,7 +6,7 @@ function Education() {
   const edu=[
     {
     area:"B.Tech",
-    branch:"Cse(AIML)",
+    branch:"CSE(AIML)",
     clg:"Sree Vidyanikethan Engineering College",
     year:"2021-2025",
     gpa:'8.75 / 10.0'
